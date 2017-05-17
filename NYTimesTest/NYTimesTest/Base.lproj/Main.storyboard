@@ -50,16 +50,16 @@
             </objects>
             <point key="canvasLocation" x="1056.8" y="150.67466266866569"/>
         </scene>
-        <!--Table View Controller-->
+        <!--News List View Controller-->
         <scene sceneID="1T0-Jm-PO1">
             <objects>
-                <tableViewController id="m01-TZ-2RK" sceneMemberID="viewController">
+                <tableViewController id="m01-TZ-2RK" customClass="LSNewsListViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="XDG-TH-SQu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eVs-fE-jhF">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="news_cell" id="eVs-fE-jhF">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eVs-fE-jhF" id="CTL-gb-Iqo">

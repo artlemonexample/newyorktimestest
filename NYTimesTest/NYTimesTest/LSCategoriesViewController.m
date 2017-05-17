@@ -8,6 +8,7 @@
 
 #import "LSCategoriesViewController.h"
 #import "LSNewsCategory.h"
+#import "LSNewsListViewController.h"
 
 @interface LSCategoriesViewController ()
 
@@ -88,15 +89,13 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    LSNewsListViewController *destination = [segue destinationViewController];
+    destination.chosenCategory = self.categories[[self.tableView indexPathForCell:sender].row];
 }
-*/
+
 - (NSArray *)categories {
     if (!_categories) {
         NSMutableArray *array = [NSMutableArray array];
