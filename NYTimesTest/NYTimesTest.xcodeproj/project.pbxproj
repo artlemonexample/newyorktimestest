@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0954E6351ECCBA4D004FC03E /* LSNewsCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0954E6321ECCBA4D004FC03E /* LSNewsCategory.m */; };
+		0954E6361ECCBA4E004FC03E /* LSNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0954E6341ECCBA4D004FC03E /* LSNewsItem.m */; };
+		0954E63F1ECCBADA004FC03E /* business.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0954E6381ECCBADA004FC03E /* business.jpg */; };
+		0954E6401ECCBADA004FC03E /* favorites.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0954E6391ECCBADA004FC03E /* favorites.jpeg */; };
+		0954E6411ECCBADA004FC03E /* jobmarket.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0954E63A1ECCBADA004FC03E /* jobmarket.jpeg */; };
+		0954E6421ECCBADA004FC03E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0954E63B1ECCBADA004FC03E /* placeholder.png */; };
+		0954E6431ECCBADA004FC03E /* technology.png in Resources */ = {isa = PBXBuildFile; fileRef = 0954E63C1ECCBADA004FC03E /* technology.png */; };
+		0954E6441ECCBADA004FC03E /* travel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0954E63D1ECCBADA004FC03E /* travel.jpg */; };
+		0954E6451ECCBADA004FC03E /* world.png in Resources */ = {isa = PBXBuildFile; fileRef = 0954E63E1ECCBADA004FC03E /* world.png */; };
+		0954E6481ECCBB35004FC03E /* LSCategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0954E6471ECCBB35004FC03E /* LSCategoriesViewController.m */; };
 		1F5968BF1ECCB6C3005786F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5968BE1ECCB6C3005786F1 /* main.m */; };
 		1F5968C21ECCB6C3005786F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5968C11ECCB6C3005786F1 /* AppDelegate.m */; };
 		1F5968C81ECCB6C3005786F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F5968C61ECCB6C3005786F1 /* Main.storyboard */; };
@@ -15,6 +25,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0954E6311ECCBA4D004FC03E /* LSNewsCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNewsCategory.h; sourceTree = "<group>"; };
+		0954E6321ECCBA4D004FC03E /* LSNewsCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNewsCategory.m; sourceTree = "<group>"; };
+		0954E6331ECCBA4D004FC03E /* LSNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSNewsItem.h; sourceTree = "<group>"; };
+		0954E6341ECCBA4D004FC03E /* LSNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSNewsItem.m; sourceTree = "<group>"; };
+		0954E6381ECCBADA004FC03E /* business.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = business.jpg; sourceTree = "<group>"; };
+		0954E6391ECCBADA004FC03E /* favorites.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = favorites.jpeg; sourceTree = "<group>"; };
+		0954E63A1ECCBADA004FC03E /* jobmarket.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jobmarket.jpeg; sourceTree = "<group>"; };
+		0954E63B1ECCBADA004FC03E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		0954E63C1ECCBADA004FC03E /* technology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = technology.png; sourceTree = "<group>"; };
+		0954E63D1ECCBADA004FC03E /* travel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = travel.jpg; sourceTree = "<group>"; };
+		0954E63E1ECCBADA004FC03E /* world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = world.png; sourceTree = "<group>"; };
+		0954E6461ECCBB35004FC03E /* LSCategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSCategoriesViewController.h; sourceTree = "<group>"; };
+		0954E6471ECCBB35004FC03E /* LSCategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSCategoriesViewController.m; sourceTree = "<group>"; };
 		1F5968BA1ECCB6C3005786F1 /* NYTimesTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTimesTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F5968BE1ECCB6C3005786F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F5968C01ECCB6C3005786F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,6 +59,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0954E6371ECCBAA2004FC03E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0954E6381ECCBADA004FC03E /* business.jpg */,
+				0954E6391ECCBADA004FC03E /* favorites.jpeg */,
+				0954E63A1ECCBADA004FC03E /* jobmarket.jpeg */,
+				0954E63B1ECCBADA004FC03E /* placeholder.png */,
+				0954E63C1ECCBADA004FC03E /* technology.png */,
+				0954E63D1ECCBADA004FC03E /* travel.jpg */,
+				0954E63E1ECCBADA004FC03E /* world.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		1F5968B11ECCB6C2005786F1 = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +92,7 @@
 		1F5968BC1ECCB6C3005786F1 /* NYTimesTest */ = {
 			isa = PBXGroup;
 			children = (
+				0954E6371ECCBAA2004FC03E /* Images */,
 				1F5968D61ECCB705005786F1 /* Modules */,
 				1F5968D51ECCB6E5005786F1 /* AppFiles */,
 				1F5968D41ECCB6D5005786F1 /* Models */,
@@ -74,6 +112,10 @@
 		1F5968D41ECCB6D5005786F1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0954E6311ECCBA4D004FC03E /* LSNewsCategory.h */,
+				0954E6321ECCBA4D004FC03E /* LSNewsCategory.m */,
+				0954E6331ECCBA4D004FC03E /* LSNewsItem.h */,
+				0954E6341ECCBA4D004FC03E /* LSNewsItem.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -94,6 +136,8 @@
 		1F5968D61ECCB705005786F1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				0954E6461ECCBB35004FC03E /* LSCategoriesViewController.h */,
+				0954E6471ECCBB35004FC03E /* LSCategoriesViewController.m */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -158,7 +202,14 @@
 			files = (
 				1F5968CD1ECCB6C3005786F1 /* LaunchScreen.storyboard in Resources */,
 				1F5968CA1ECCB6C3005786F1 /* Assets.xcassets in Resources */,
+				0954E6441ECCBADA004FC03E /* travel.jpg in Resources */,
 				1F5968C81ECCB6C3005786F1 /* Main.storyboard in Resources */,
+				0954E6411ECCBADA004FC03E /* jobmarket.jpeg in Resources */,
+				0954E6421ECCBADA004FC03E /* placeholder.png in Resources */,
+				0954E6451ECCBADA004FC03E /* world.png in Resources */,
+				0954E6431ECCBADA004FC03E /* technology.png in Resources */,
+				0954E63F1ECCBADA004FC03E /* business.jpg in Resources */,
+				0954E6401ECCBADA004FC03E /* favorites.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +221,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F5968C21ECCB6C3005786F1 /* AppDelegate.m in Sources */,
+				0954E6351ECCBA4D004FC03E /* LSNewsCategory.m in Sources */,
+				0954E6361ECCBA4E004FC03E /* LSNewsItem.m in Sources */,
+				0954E6481ECCBB35004FC03E /* LSCategoriesViewController.m in Sources */,
 				1F5968BF1ECCB6C3005786F1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,6 +379,7 @@
 				1F5968D31ECCB6C3005786F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
